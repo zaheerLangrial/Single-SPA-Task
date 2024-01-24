@@ -1,0 +1,94 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  list-style: none;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-price {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #2980b9;
+}
+
+.card {
+  width: 300px;
+  /* height: 100px; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 30%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-price {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #2980b9;
+}
